@@ -21,15 +21,59 @@
 	<!-- Favicons -->
     <link href="<?php echo get_template_directory_uri();?>/assets/img/favicon.png" rel="icon">
     <link href="<?php echo get_template_directory_uri();?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  	<!-- Vendor CSS Files -->
+  	<link href="<?php echo get_template_directory_uri();?>/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri();?>/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri();?>/assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri();?>/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri();?>/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri();?>/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  	<!-- Template Main CSS File -->
+  	<link href="<?php echo get_template_directory_uri();?>/assets/css/style.css" rel="stylesheet">   
+  	<link href="<?php echo get_template_directory_uri();?>/assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+    <div class="container d-flex justify-content-end">
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
 
-	<?php get_template_part( 'template-parts/header/site-header' ); ?>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
 
-	<div id="content" class="site-content">
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main" role="main">
+      <!-- <h1 class="logo mr-auto"><a href="index.html">Rapid</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+       <a href="index.html" class="logo mr-auto"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Trang chủ</a></li>
+          <li><a href="#footer">Giới thiệu</a></li>
+          <li><a href="#about">Cầm đồ online</a></li>
+          <li><a href="#services">Vay tín chấp</a></li>      
+          <li class="drop-down"><a href="">Kiến thức</a>
+            <ul>
+              <li><a href="#">Kiến thức thẻ tín dụng</a></li>              
+              <li><a href="#">Kiến thức vay tiền nhanh</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav><!-- .main-nav-->
+
+    </div>
+  </header><!-- End Header -->
+

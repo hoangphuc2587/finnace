@@ -133,24 +133,24 @@
   var main_nav = $('.main-nav, .mobile-nav');
   var main_nav_height = $('#header').outerHeight();
 
-  $(window).on('scroll', function() {
-    var cur_pos = $(this).scrollTop() + 200;
+  // $(window).on('scroll', function() {
+  //   var cur_pos = $(this).scrollTop() + 200;
 
-    nav_sections.each(function() {
-      var top = $(this).offset().top - main_nav_height,
-        bottom = top + $(this).outerHeight();
+  //   nav_sections.each(function() {
+  //     var top = $(this).offset().top - main_nav_height,
+  //       bottom = top + $(this).outerHeight();
 
-      if (cur_pos >= top && cur_pos <= bottom) {
-        main_nav.find('li').removeClass('active');
-        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
-      }
+  //     if (cur_pos >= top && cur_pos <= bottom) {
+  //       main_nav.find('li').removeClass('active');
+  //       main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+  //     }
 
-      if (cur_pos < 300) {
-        $(".nav-menu ul:first li:first").addClass('active');
-      }
+  //     if (cur_pos < 300) {
+  //       $(".nav-menu ul:first li:first").addClass('active');
+  //     }
 
-    });
-  });
+  //   });
+  // });
 
   // jQuery counterUp (used in Whu Us section)
   $('[data-toggle="counter-up"]').counterUp({
@@ -208,12 +208,12 @@
   });
 
   // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
+  // $(".portfolio-details-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   items: 1
+  // });
 
   // Init AOS
   function aos_init() {
