@@ -40,7 +40,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top">
     <div class="container d-flex justify-content-end">
       <div class="social-links">
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -52,7 +52,7 @@
   </div>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <!-- <h1 class="logo mr-auto"><a href="index.html">Rapid</a></h1> -->

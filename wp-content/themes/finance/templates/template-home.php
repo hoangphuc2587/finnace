@@ -12,7 +12,7 @@ get_header();
 ?>
 
    <!-- ======= Hero Section ======= -->
-  <section id="hero" class="clearfix">
+  <!-- <section id="hero" class="clearfix">
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center" data-aos="fade-up">
         <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
@@ -23,7 +23,7 @@ get_header();
         </div>
 
         <div class="col-md-6 intro-img order-md-last order-first" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/intro-img.svg" alt="" class="img-fluid">
+          <img src="assets/img/intro-img.svg" alt="" class="img-fluid">
         </div>
       </div>
 
@@ -31,6 +31,23 @@ get_header();
   </section><!-- End Hero -->
 
   <main id="main">
+
+        <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/portfolio/portfolio-details-2.jpg" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      
+      </div>
+    </section><!-- End Portfolio Details Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -586,6 +603,7 @@ get_header();
 
               <div class="testimonial-item">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <p>
@@ -595,6 +613,7 @@ get_header();
 
               <div class="testimonial-item">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <p>
@@ -604,6 +623,7 @@ get_header();
 
               <div class="testimonial-item">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <p>
@@ -613,6 +633,7 @@ get_header();
 
               <div class="testimonial-item">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <p>

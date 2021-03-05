@@ -33,6 +33,14 @@
    background: #413e66;
 }
 
+.portfolio-details .portfolio-details-carousel .owl-dots{
+    position: absolute !important;
+    bottom: 15px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
 #why-us {
     padding: 0px 0 30px 0;
 }
@@ -257,4 +265,62 @@
 #news .box-list-view .box .box-text, #news .box-vertical .box-text {
     padding-left: 1.5em;
     padding-right: 1.5em;
+}
+
+@font-face {
+    font-family: "fl-icons"; 
+ src: url("fonts/30a0adada561ec8493b9dfce36a805f8.eot");
+ src: url("fonts/30a0adada561ec8493b9dfce36a805f8.eot?#iefix") format("embedded-opentype"), 
+ url("fonts/30a0adada561ec8493b9dfce36a805f8.woff2") format("woff2"), 
+ url("fonts/30a0adada561ec8493b9dfce36a805f8.woff") format("woff"), 
+ url("fonts/30a0adada561ec8493b9dfce36a805f8.ttf") format("truetype"),
+ url("fonts/30a0adada561ec8493b9dfce36a805f8.svg#fl-icons") format("svg");
+}
+
+
+.star-rating {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1em;
+    letter-spacing: 0;
+    margin: .5em 0;
+    width: 8.06em;
+    font-family: "fl-icons"!important;
+    font-weight: 400!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.star-rating:before {
+    content: '\e006\e006\e006\e006\e006';
+    color: #d26e4b;
+    float: left;
+    top: 0;
+    left: 20px;
+    position: absolute;
+}
+
+.star-rating span {
+    overflow: hidden;
+    float: left;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 20px;
+    font-family: "fl-icons"!important;
+    font-weight: 400!important;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.star-rating span:before {
+    content: '\e005\e005\e005\e005\e005';
+    color: #d26e4b;
+    top: 0;
+    position: absolute;
+    left: 0;
 }
