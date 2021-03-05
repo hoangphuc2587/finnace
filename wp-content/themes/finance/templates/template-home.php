@@ -172,12 +172,21 @@ get_header();
           <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>19<span class="period">/month</span></h3>
-              </div>
-              <div class="card-block">
+              	<div class="panel-label"><span class="panel-label-text">TOP #1 tốt nhất</span><br><span class="triangle-right"></span></div>
+              	<div class="offers-tags"><img class="offers-tags__item" height="20" src="<?php echo get_template_directory_uri();?>/assets/img/new-2.png"></div>
+                <div class="logo">
+                   <img src="<?php echo get_template_directory_uri();?>/assets/img/clients/doctordong.png" class="testimonial-img" alt="">
+                </div>
                 <h4 class="card-title">
                   Vay tiêu dùng tín chấp VIB
                 </h4>
+                <p class="gift"><i aria-hidden="true" class="fa fa-gift"></i> <span style="font-size: 85%;"> 0% lãi suất đến 30 ngày cho khoản vay đầu</span></p>
+              </div>
+              <div class="card-block">
+                <h3>
+                	10<span class="currency">triệu</span><span class="period">lãi suất</span>
+                	20<span class="currency">%</span><span class="period">/năm</span>
+                </h3>
                 <ul class="list-group">
                   <li class="list-group-item">Độ tuổi từ 20 – 60</li>
                   <li class="list-group-item">Thời gian vay tối đa 30 ngày</li>
@@ -193,13 +202,21 @@ get_header();
           <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-header">
+              	<div class="panel-label"><span class="panel-label-text">TOP #2 tốt nhất</span><br><span class="triangle-right"></span></div>
+              	<div class="offers-tags"><img class="offers-tags__item" height="20" src="<?php echo get_template_directory_uri();?>/assets/img/new-2.png"></div>
+                <div class="logo">
+                   <img src="<?php echo get_template_directory_uri();?>/assets/img/clients/moneyveo.png" class="testimonial-img" alt="">
+                </div>
                 <h4 class="card-title">
                   Vay tiêu dùng tín chấp TPBank
                 </h4>
                 <p class="gift"><i aria-hidden="true" class="fa fa-gift"></i> <span style="font-size: 85%;"> 0% lãi suất đến 30 ngày cho khoản vay đầu</span></p>
               </div>
               <div class="card-block">
-                <h3><span class="currency">$</span>29<span class="period">/month</span></h3>
+                <h3>
+                    20<span class="currency">triệu</span><span class="period">lãi suất</span>
+                    18.25<span class="currency">%</span><span class="period">/năm</span>
+                </h3>
                 <ul class="list-group">
                   <li class="list-group-item">Độ tuổi từ 20 – 60</li>
                   <li class="list-group-item">Thời gian vay tối đa 30 ngày</li>
@@ -215,12 +232,20 @@ get_header();
           <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>39<span class="period">/month</span></h3>
-              </div>
-              <div class="card-block">
+              	<div class="panel-label"><span class="panel-label-text">TOP #3 tốt nhất</span><br><span class="triangle-right"></span></div>
+              	<div class="logo">
+                   <img src="<?php echo get_template_directory_uri();?>/assets/img/clients/oncredit.png" class="testimonial-img" alt="">
+                </div>
                 <h4 class="card-title">
                   OnCredit &#8211; Vay tiền nhanh online 24/7
                 </h4>
+                <p class="gift"><span style="font-size: 85%;">  Thủ tục đơn giản, giải ngân nhanh chóng</span></p>
+              </div>
+              <div class="card-block">
+                <h3>
+                	10<span class="currency">triệu</span><span class="period">lãi suất</span>
+                	14.2<span class="currency">%</span><span class="period">/năm</span>
+                </h3>
                 <ul class="list-group">
                   <li class="list-group-item">Độ tuổi từ 20 – 60</li>
                   <li class="list-group-item">Thời gian vay tối đa 30 ngày</li>
@@ -232,6 +257,96 @@ get_header();
             </div>
           </div>
 
+           <!-- Basic Plan  -->
+          <div class="col-xs-12 col-lg-4 product-2" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <div class="card-header">
+                <div class="logo">
+                   <img src="<?php echo get_template_directory_uri();?>/assets/img/clients/senmo.png" class="testimonial-img" alt="">
+                </div>
+                <h4 class="card-title">
+                  Vay tiêu dùng tín chấp VIB
+                </h4>
+                <p class="gift"><i aria-hidden="true" class="fa fa-gift"></i> <span style="font-size: 85%;"> 0% lãi suất đến 30 ngày cho khoản vay đầu</span></p>
+              </div>
+              <div class="card-block">
+                <h3>
+                	10<span class="currency">triệu</span><span class="period">lãi suất</span>
+                	12<span class="currency">%</span><span class="period">/năm</span>
+                </h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Độ tuổi từ 20 – 60</li>
+                  <li class="list-group-item">Thời gian vay tối đa 30 ngày</li>
+                  <li class="list-group-item">Chỉ cần CMND, giải ngân trong 5 phút</li>
+                  <li class="list-group-item"><a href="#">Xem thêm</a></li>
+                </ul>
+                <a href="#" class="btn">Đăng ký vay ngay</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Regular Plan  -->
+          <div class="col-xs-12 col-lg-4 product-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <div class="card-header">
+                <div class="logo">
+                   <img src="<?php echo get_template_directory_uri();?>/assets/img/clients/moneycat.png" class="testimonial-img" alt="">
+                </div>
+                <h4 class="card-title">
+                  Vay tiêu dùng tín chấp TPBank
+                </h4>
+                <p class="gift"><i aria-hidden="true" class="fa fa-gift"></i> <span style="font-size: 85%;"> 0% lãi suất đến 30 ngày cho khoản vay đầu</span></p>
+              </div>
+              <div class="card-block">
+                <h3>
+                	10<span class="currency">triệu</span><span class="period">lãi suất</span>
+                	20<span class="currency">%</span><span class="period">/năm</span>
+                </h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Độ tuổi từ 20 – 60</li>
+                  <li class="list-group-item">Thời gian vay tối đa 30 ngày</li>
+                  <li class="list-group-item">Chỉ cần CMND, giải ngân trong 5 phút</li>
+                  <li class="list-group-item"><a href="#">Xem thêm</a></li>
+                </ul>
+                <a href="#" class="btn">Đăng ký vay ngay</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Premium Plan  -->
+          <div class="col-xs-12 col-lg-4 product-2" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <div class="card-header">
+              	<div class="logo">
+                   <img src="<?php echo get_template_directory_uri();?>/assets/img/clients/tamo.png" class="testimonial-img" alt="">
+                </div>
+                <h4 class="card-title">
+                  OnCredit &#8211; Vay tiền nhanh online 24/7
+                </h4>
+                <p class="gift"><span style="font-size: 85%;">  Thủ tục đơn giản, giải ngân nhanh chóng</span></p>
+              </div>
+              <div class="card-block">
+                <h3>
+                	10<span class="currency">triệu</span><span class="period">lãi suất</span>
+                	18.25<span class="currency">%</span><span class="period">/năm</span>
+                </h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Độ tuổi từ 20 – 60</li>
+                  <li class="list-group-item">Thời gian vay tối đa 30 ngày</li>
+                  <li class="list-group-item">Chỉ cần CMND, giải ngân trong 5 phút</li>
+                  <li class="list-group-item"><a href="#">Xem thêm</a></li>
+                </ul>
+                <a href="#" class="btn">Đăng ký vay ngay</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row block-more">
+        	<div class="col-xs-12 col-lg-12" data-aos="fade-up" data-aos-delay="300">
+        	  <a href="#" class="btn-more">Xem thêm</a>
+            </div>
         </div>
       </div>
 
@@ -289,6 +404,171 @@ get_header();
         </div>
       </div>
     </section><!-- End Services Section -->
+
+        <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Kiến thức tài chính</h3>
+          <p style="width: 80%">Cập nhật những kiến thức hữu ích về tài chính cá nhân và các sản phẩm vay online cũng như thẻ tín dụng</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <a href="#">
+	              <img src="<?php echo get_template_directory_uri();?>/assets/img/news/1.png" width="225" height="179"  class="img-fluid" alt="">
+	              <div class="member-info">
+	                <div class="member-info-content">
+	                  <h4>Cầm cavet xe máy được bao nhiêu tiền?</h4>
+	                </div>
+	              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <a href="#">
+	              <img src="<?php echo get_template_directory_uri();?>/assets/img/news/3.jpg" width="225" height="179" alt="">
+	              <div class="member-info">
+	                <div class="member-info-content">
+	                  <h4>5 nguyên nhân cơ bản dẫn tới việc nợ nần chồng chất</h4>                  
+	                </div>
+	              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <a href="#">
+	              <img src="<?php echo get_template_directory_uri();?>/assets/img/news/vay-online-2-trieu.jpg" width="225" height="179"  alt="">
+	              <div class="member-info">
+	                <div class="member-info-content">
+	                  <h4>Vay online 2 triệu – Có tiền ngay trong ngày</h4>                 
+	                </div>
+	              </div>
+	           </a>   
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <a href="#">            	
+	              <img src="<?php echo get_template_directory_uri();?>/assets/img/news/no-nan-chong-chat.jpg" width="225" height="179"  alt="">
+	              <div class="member-info">
+	                <div class="member-info-content">
+	                  <h4>Nợ nần chồng chất phải làm thế nào?</h4>                 
+	                </div>
+	              </div>
+	           </a>   
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row block-more">
+        	<div class="col-xs-12 col-lg-12" data-aos="fade-up" data-aos-delay="300">
+        	  <a href="#" class="btn-more">Xem thêm</a>
+            </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <section id="news" class="news">
+        <div class="container" data-aos="zoom-in">
+            <header class="section-header">
+              <h3>Tin tức mới nhất</h3>
+              <p style="width: 80%">Blog của <span style='color: #50b848;'>Vay tiền Oline</span> cập nhật thông tin ưu đãi và tin tức mới nhất liên quan đến lĩnh vực tài chính cá nhân, thẻ tín dụng và sản phẩm vay online.</p>
+            </header>
+            <div class="row">
+              <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
+              	<a href="#">
+	                <div class="box box-normal box-text-bottom box-blog-post has-hover">
+					   <div class="box-image">
+					      <div class="image-cover" style="padding-top:65%"> 
+					      	<img src="<?php echo get_template_directory_uri();?>/assets/img/news/vay-online-2-trieu.jpg" class="attachment-medium size-medium wp-post-image"> 
+					      </div>
+					   </div>
+					   <div class="box-text text-left">
+					      <div class="box-text-inner blog-post-inner">
+					         <h5 class="post-title is-large">Vay online 2 triệu – Có tiền ngay trong ngày</h5>				         
+					         <p class="from_the_blog_excerpt">Vay online 2 triệu&nbsp;có tiền ngay trong ngày chỉ cần CMND sẽ giúp bạn vượt qu...</p>
+					      </div>
+					   </div>
+					</div>
+			    </a>
+              </div>
+              <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
+              	  <div class="row">
+              	  	  <div class="col-lg-12 col-md-12">
+              	  	  	 <a href="#">
+              	  	  	 	<div class="box box-vertical box-text-top box-blog-post has-hover">
+							    <div class="box-image" style="width:31%">
+							        <div class="image-cover" style="padding-top:70%"> <img src="<?php echo get_template_directory_uri();?>/assets/img/news/3.jpg" alt="Nợ nần chồng chất phải làm thế nào?" class="attachment-medium size-medium wp-post-image"> </div>
+							    </div>
+							    <div class="box-text text-left">
+							        <div class="box-text-inner blog-post-inner">
+							            <h5 class="post-title is-large">Nợ nần chồng chất phải làm thế nào?</h5>
+							            <p class="from_the_blog_excerpt">Nợ nần chồng chất có thể chỉ là điều không may mắn bất ngờ đến với bạn trong 1 k...</p>
+							        </div>
+							    </div>
+							</div>
+              	  	  	 </a>
+              	  	  </div>
+              	  	  <div class="col-lg-12 col-md-12">
+              	  	  	 <a href="#">
+	              	  	  <div class="box box-vertical box-text-top box-blog-post has-hover">
+						    <div class="box-image" style="width:31%">
+						        <div class="image-cover" style="padding-top:70%"> 
+						        	<img src="<?php echo get_template_directory_uri();?>/assets/img/news/2.png" alt="Dịch vụ vay tiền bằng cầm hộ khẩu được bao nhiêu tiền?" class="attachment-medium size-medium wp-post-image"> 
+						        </div>
+						    </div>
+						    <div class="box-text text-left">
+						        <div class="box-text-inner blog-post-inner">
+						            <h5 class="post-title is-large">Dịch vụ vay tiền bằng cầm hộ khẩu được bao nhiêu tiền?</h5>
+						            <p class="from_the_blog_excerpt">Trên thị trường hiện nay có rất nhiều hình thức dịch vụ vay tiền phổ biến ...</p>
+						        </div>
+						    </div>
+						  </div>
+						</a>
+					   </div>
+
+					   <div class="col-lg-12 col-md-12">
+              	  	  	 <a href="#">
+							<div class="box box-vertical box-text-top box-blog-post has-hover">
+							    <div class="box-image" style="width:31%">
+							        <div class="image-cover" style="padding-top:70%"> 
+							        	<img src="<?php echo get_template_directory_uri();?>/assets/img/news/1.png" alt="Cầm cavet xe máy được bao nhiêu tiền?" class="attachment-medium size-medium wp-post-image"> 
+							        </div>
+							    </div>
+							    <div class="box-text text-left">
+							        <div class="box-text-inner blog-post-inner">
+							            <h5 class="post-title is-large">Cầm cavet xe máy được bao nhiêu tiền?</h5>
+							            <p class="from_the_blog_excerpt">Cầm cavet xe máy&nbsp;được bao nhiêu tiền? Đó là câu hỏi được rất nhiều ng...</p>
+							        </div>
+							    </div>
+							</div>              	  	  	 	
+              	  	  	 </a>	
+                        </div>
+              	  </div>
+              </div>
+            </div>
+
+            <div class="row block-more">
+	        	<div class="col-xs-12 col-lg-12" data-aos="fade-up" data-aos-delay="300">
+	        	  <a href="#" class="btn-more">Xem thêm</a>
+	            </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
 
 
     <!-- ======= Testimonials Section ======= -->
